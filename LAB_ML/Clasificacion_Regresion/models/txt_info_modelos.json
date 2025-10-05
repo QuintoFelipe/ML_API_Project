@@ -1,0 +1,18 @@
+{
+    "regresion": {
+        "modelo": "CatBoostRegressor",
+        "n_train": 5625,
+        "n_test": 1407,
+        "rmse_test": 1038.6284940088733,
+        "mae_test": 725.5499824291229
+    },
+    "clasificacion": {
+        "modelo": "LogisticRegression",
+        "n_train": 5625,
+        "n_test": 1407,
+        "roc_auc_test": 0.8143070129574315,
+        "precision_1": 0.46325878594249204,
+        "recall_1": 0.7754010695187166,
+        "f1_1": 0.58
+    }
+}
